@@ -13,7 +13,7 @@ const Input = ({ placeholder, name, type, value, handleChange }) => (
         step='0.0001'
         value={value}
         onChange={(e) => handleChange(e, name)}
-        className='my-2 w-full rounded-sm p-2 outline-none bg-transparent text-white border-none text-small white-glassmorphism'
+        className='my-2 w-full rounded-sm p-2 outline-none text-white border-none text-small white-glassmorphism'
     />
 );
 
@@ -29,8 +29,8 @@ const Welcome = () => {
 
     return (
         <div className=" flex w-full justify-center items-center">
-            <div className="flex md:flex-row flex-col items-start justify-between md:p-20 py-12 px-4">
-                <div className="flex flex-1 justify-start flex-col md:mr-10">
+            <div className="flex md:flex-row flex-col items-start justify-between mf:p-20 py-12 px-4">
+                <div className="flex flex-1 justify-start flex-col mf:mr-10">
                     <h1 className="text-3xl sm:text-5xl text-white text-gradient py-1">
                         Send Crypto <br /> across the world
                     </h1>
@@ -67,7 +67,7 @@ const Welcome = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-col flex-1 items-center justify-start w-full md:mt-0 mt-10">
+                <div className="flex flex-col flex-1 items-center justify-start w-full mf:mt-0 mt-10">
                     <div className="p-3 justify-end items-start flex-col rounded-xl h-40 sm:w-72 w-full my-5 eth-card white-glassmorphism">
                         <div className="flex justify-between flex-col w-full h-full">
                             <div className="flex justify-between items-start">
@@ -81,7 +81,7 @@ const Welcome = () => {
                                     0xjafsjdfasdf...asdfasd
                                 </p>
                                 <p className="text-white font-semibold text-lg mt-1">
-                                    Etherium
+                                    Ethereum
                                 </p>
                             </div>
                         </div>
